@@ -12,15 +12,20 @@
         <h1>Haiku Schmaiku</h1>
       </header>
       <main>
-        <p>Welcome to the AI haiku generator of your dreams!</p>
+        <p class="intro">Welcome to the AI haiku generator of your dreams!</p>
         <form>
           <input
             type="text"
+            class="prompt-box"
             placeholder="What will your haiku be about?"
             required
             autocomplete="off"
           />
-          <input type="submit" value="Generate my haiku" />
+          <input
+            type="submit"
+            class="generate-button"
+            value="Generate my haiku"
+          />
         </form>
         <div class="result">
           <p class="haiku-text">Your haiku will appear here...</p>
