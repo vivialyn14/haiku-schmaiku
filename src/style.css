@@ -64,6 +64,25 @@ form {
   background-color: #ffd3b6;
 }
 
+.reset-button {
+  display: block;
+  margin: 20px auto;
+  padding: 6px 15px;
+  background-color: #ffb6bc;
+  font-weight: bold;
+  color: #5c3b3a;
+  border-radius: 10px;
+  border: 1px solid #cca489;
+  box-shadow: 3px 3px 6px rgb(128, 128, 128, 0.5);
+  transition: all 150ms ease-in-out;
+}
+
+.reset-button:hover {
+  cursor: pointer;
+  background-color: #ebbd9f;
+  border: 1px solid #ffd3b6;
+}
+
 footer {
   margin-top: 35px;
   text-align: center;
