@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Haiku Schmaiku</title>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
@@ -13,7 +14,7 @@
       </header>
       <main>
         <p class="intro">Welcome to the AI haiku generator of your dreams!</p>
-        <form>
+        <form id="haiku-form">
           <input
             type="text"
             class="prompt-box"
@@ -28,7 +29,9 @@
           />
         </form>
         <div class="result">
-          <p class="haiku-text">Your haiku will appear here...</p>
+          <p class="haiku-text" id="haiku-text">
+            Your haiku will appear here...
+          </p>
         </div>
       </main>
       <footer>
